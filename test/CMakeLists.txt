@@ -6,7 +6,8 @@ add_subdirectory(lib)
 include_directories(${gtest_SOURCE_DIR}/include ${gtest_SOURCE_DIR})
 
 add_executable(Tests
-        CreationTest.cpp)
+        CreationTest.cpp
+        GettingTest.cpp)
 
 target_link_libraries(Tests unitTestExample_Lib)
 
