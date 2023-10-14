@@ -1,6 +1,8 @@
 cmake_minimum_required(VERSION 3.22)
-project(unitTestExmaple)
+project(unitTestExample)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(unitTestExmaple main.cpp)
+add_executable(unitTestExample main.cpp
+        Wrapper.cpp
+        Wrapper.h)

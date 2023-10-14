@@ -1,6 +1,8 @@
 #include <iostream>
+#include "Wrapper.h"
 
 int main() {
-  std::cout << "Hello, World!" << std::endl;
+  ns::Wrapper wrapper(5);
+  std::cout << "Should be five: " << wrapper.Get() << std::endl;
   return 0;
 }
